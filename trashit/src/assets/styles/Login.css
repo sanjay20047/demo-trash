@@ -1,0 +1,76 @@
+/* src/assets/styles/Login.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+  padding: 20px;
+}
+
+.login-container h2 {
+  color: #065809;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #065809;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #23a029;
+}
+
+.login-links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-links a {
+  color: #065809;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.login-links a:hover {
+  text-decoration: underline;
+}

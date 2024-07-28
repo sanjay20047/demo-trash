@@ -1,0 +1,71 @@
+/* src/assets/styles/Home.css */
+
+/* General Styles */
+.home {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    background-color: #f9f9f9; /* Light grey background */
+    color: #333; /* Dark grey text color */
+  }
+  
+  /* Hero Container Styles */
+  .hero-container {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack content vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+    justify-content: center; /* Center content vertically */
+    text-align: left; /* Align text to the left */
+    padding: 120px;
+    background-image: url('https://img.freepik.com/free-photo/recycling-container-with-cardboard-items_23-2149439668.jpg?t=st=1721976612~exp=1721980212~hmac=321483a0f698f5c9c69ad1da3d897225ac2eddc7c89bdffe1243a34875d131d8&w=1060'); /* Set your background image here */
+    background-size: cover; /* Ensure the image covers the container */
+    background-position: center; /* Center the background image */
+    color: white; /* White text color for contrast */
+    border-radius: 10px; /* Optional: rounded corners for the container */
+  }
+  
+  .hero-container h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-container p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Slogan Styles */
+  .slogan {
+    font-size: 30px; /* Increase font size */
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Description Styles */
+  .des p {
+    margin-top: 20px; /* Add some space at the top */
+    line-height: 1.6; /* Improve readability with line height */
+    text-align: left;
+  }
+  
+  /* Home Buttons Styles */
+  .home-buttons {
+    margin-top: 30px; /* Add some space at the top */
+    display: flex; /* Use flexbox for alignment */
+    gap: 15px; /* Space between buttons */
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .home-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  

@@ -1,0 +1,44 @@
+/* src/assets/styles/HowItWorks.css */
+
+/* Section Styles */
+.how-it-works {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  /* Content Container Styles */
+  .content-container {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between items */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  }
+  
+  /* Image Styles */
+  .how-it-works-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Text Container Styles */
+  .text-container {
+    max-width: 600px;
+    text-align: left; /* Align text to the left */
+    padding: 20px;
+  }
+  
+  /* Title Styles */
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Description Styles */
+  .section-description {
+    font-size: 18px;
+    line-height: 1.6; /* Improve readability with line height */
+  }
+  
